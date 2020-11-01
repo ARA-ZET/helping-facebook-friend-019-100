@@ -1,0 +1,144 @@
+/* universal style */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  margin: .6rem auto;
+   color: rgb(59, 59, 59);
+  
+   max-width: 1070px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.component {
+   background-color: rgb(240, 240, 240);
+   padding: 0 0 5rem 0;
+   box-shadow: 2px 2px 12px grey;
+   position: relative;
+}
+
+
+/* nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin: 0 5rem;
+  margin-bottom: 2rem;
+  z-index: 2;
+  position: relative;
+}
+
+.logo {
+  color: rgb(13, 26, 209);
+}
+
+.mid {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: .4rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1rem;
+ 
+}
+
+.nav-right {
+  color: rgb(13, 26, 209);
+  text-transform: capitalize;
+}
+
+.banner {
+  display: flex;
+  margin: 0 5rem;
+  position: relative;
+  z-index: 2;
+}
+.banner-left {
+  width: 100%;
+  margin-top: 3rem;
+  margin-right: 4rem;
+}
+
+h1, h3 {
+  font-weight: bold;
+  margin-bottom: .6rem;
+  color: black;
+}
+h4 {
+  margin: .5rem 0;
+  font-weight: bold;
+}
+
+button {
+  padding: .5rem 1rem;
+  background-color:  rgb(13, 26, 209);
+  color: white;
+  text-transform: capitalize;
+  border: none;
+  border-radius: .8rem;
+  margin: .8rem 0 3rem 0;
+
+}
+
+.left-bottom  {
+  display: flex;
+}
+
+.banner-right {
+  position: relative;
+  margin-left: 1rem;
+ 
+  
+}
+
+.info {
+  position: absolute;
+  bottom: 3rem;
+  left: -2rem;
+  width: 100%;
+  background-color: rgba(5, 23, 56);
+  color: white;
+  padding: 1.5rem;
+  border-radius: .4rem;
+}
+
+.info p {
+  font-size: .7rem;
+}
+
+.img {
+  width: 100%;
+    
+}
+
+.img img {
+  width: 100%;
+}
+
+.illustrator {
+  width: 5rem;
+}
+.illustrator img {
+  width: 100%;
+}
+
+.last {
+  background-color: rgba(114, 130, 139, 0.4);
+  width: 30%;
+  height: 20rem;
+  color: rgb(123, 143, 155);
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+  z-index: 1;
+  box-shadow: 2px 2px 12px grey;
+}
